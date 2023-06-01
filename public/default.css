@@ -1,0 +1,24 @@
+* {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.slider {
+    width: 200px;
+    height: 40px;
+    thumb-radius: 6;
+    stroke-width: 3;
+    fill-color: #6495ED55;
+    track-color: #6495ED;
+    thumb-color: #6495ED;
+    thumb-color-stroke: black;
+}
+
+app {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: black;
+}
