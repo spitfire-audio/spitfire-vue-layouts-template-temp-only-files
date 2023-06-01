@@ -3,7 +3,7 @@ const path = require('path')
 
 module.exports = {
     mode: 'development',
-    entry: "./submodule_test/juce_render/main.js",
+    entry: "./spitfire-vue-layouts-template-temp-only-files/juce_render/main.js",
     output: {
         path: __dirname + "/build/js",
         filename: "main.js",
