@@ -1,6 +1,6 @@
 import { createApp } from './juce_render.ts';
-import { store } from '../../src/stores/SetupStore';
-import App from '../../src/App.vue';
+import { store } from '@/stores/SetupStore';
+import App from '@/App.vue';
 
 const app = createApp(App);
 const root = document.body;

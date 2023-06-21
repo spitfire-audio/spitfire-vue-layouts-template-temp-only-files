@@ -6,7 +6,8 @@ module.exports = {
     vueIndentScriptAndStyle: false,
     bracketSpacing: true,
     bracketSameLine: false,
-    breakBeforeStatement: "always",
-    spaceBeforeFunctionParen: "not-empty",
+    breakBeforeElse: true,
+    breakBeforeStatement: 'always',
+    spaceBeforeFunctionParen: 'not-empty',
     spaceLogicalNot: true,
-}
+};
